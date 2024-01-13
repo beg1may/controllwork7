@@ -14,6 +14,7 @@ const OrderDetails: React.FC<OrderDetailsProps> = ({ itemsOrder, removeOrder }) 
         { name: "Taco", price: 200 },
         { name: "Tea", price: 200 },
         { name: "Coffee", price: 200 },
+        { name: "Juice", price: 200 },
     ];
 
     const total = Object.keys(itemsOrder).reduce((acc, item) => {

@@ -6,6 +6,7 @@ import friesImage from './assets/Fries.jpg';
 import tacoImage from './assets/Taco.jpg';
 import teaImage from './assets/Tea.jpg';
 import coffeeImage from './assets/Coffee.jpg';
+import juiceImage from './assets/juice.jpg';
 
 interface MenuItem {
     name: string;
@@ -25,6 +26,7 @@ const AddItems: React.FC<AddItemsProps> = ({ addToOrder }) => {
         { name: "Taco", price: 200, image: tacoImage },
         { name: "Tea", price: 200, image: teaImage },
         { name: "Coffee", price: 200, image: coffeeImage },
+        { name: "Juice", price: 200, image: juiceImage },
     ];
 
     return (
